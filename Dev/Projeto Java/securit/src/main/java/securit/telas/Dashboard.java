@@ -169,9 +169,9 @@ public class Dashboard extends javax.swing.JFrame {
     }
     
     private void setColor(){
-        lblCPU.setForeground(comp.validateCPU(cpu));
-        lblMemory.setForeground(comp.validateMemory(memory));
-        lblDisk.setForeground(comp.validateDisk(disk));
+        lblCPU.setForeground(comp.validateComponente(cpu, 0));
+        lblMemory.setForeground(comp.validateComponente(memory, 1));
+        lblDisk.setForeground(comp.validateComponente(disk, 2));
     }
     
     private void getGraph(){

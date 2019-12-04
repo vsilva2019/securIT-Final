@@ -1,0 +1,2 @@
+[04/12/2019 12:04:09] Servidor do sistema Biometria iniciado.
+[04/12/2019 12:08:48] Servidor do sistema Biometria iniciado.
